@@ -2,6 +2,13 @@
   assign container_class = 'bg-contrast/80 text-primary'
   assign input_class = 'focus:border-primary/20'
 -%}
+<style>
+  .logotipo img{
+    width:200px;
+    margin:10px 0 0 0;
+}
+</style>
+
 
 <{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %} client:idle>
   <header role="banner" class="{{ container_class }} h-nav w-full leading-none backdrop-blur-lg px-4 flex justify-between items-center gap-4 md:px-8 lg:gap-8 lg:px-12 lg:py-8">
@@ -56,8 +63,8 @@
       {%- if request.page_type == 'index' -%}
         <h1 class="w-full lg:w-auto">
       {%- endif %}
-          <a href="{{ routes.root_url }}" class="flex items-center self-stretch leading-[3rem] justify-center flex-grow w-full h-full font-heading font-heading-weight md:leading-[4rem] lg:inline lg:w-auto lg:h-auto lg:leading-none">
-            {{ shop.name }}
+          <a href="{{ routes.root_url }}" class="logotipo flex items-center self-stretch leading-[3rem] justify-center flex-grow w-full h-full font-heading font-heading-weight md:leading-[4rem] lg:inline lg:w-[auto] lg:h-auto lg:leading-none">
+            <img src="{{ 'logotipo.png' | asset_url }}" alt="Logo" />
           </a>
       {%- if request.page_type == 'index' -%}
         </h1>
