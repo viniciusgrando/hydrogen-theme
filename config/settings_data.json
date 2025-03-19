@@ -8,7 +8,49 @@
  * ------------------------------------------------------------
  */
 {
-  "current": {},
+  "current": {
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "menu": "main-menu",
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Links rápidos",
+              "menu": "footer"
+            }
+          },
+          "link_list_dtXmjC": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Menu Prinicpal",
+              "menu": "main-menu"
+            }
+          },
+          "footer-1": {
+            "type": "country_selector",
+            "settings": {
+              "heading": "Cidades"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "link_list_dtXmjC",
+          "footer-1"
+        ],
+        "settings": {}
+      }
+    },
+    "content_for_index": []
+  },
   "presets": {
     "Default": {}
   }

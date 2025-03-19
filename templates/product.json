@@ -50,7 +50,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
+        "heading": "Você pode gostar!",
         "products_to_show": 5
       }
     }
