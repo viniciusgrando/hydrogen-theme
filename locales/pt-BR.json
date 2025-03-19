@@ -19,9 +19,9 @@
     "cart": {
       "title": "Seu carrinho",
       "empty": "Seu carrinho esta vazio",
-      "remove_title": "",
-      "subtotal": "",
-      "new_subtotal": "",
+      "remove_title": "Remover {{ title }}",
+      "subtotal": "Subtotal",
+      "new_subtotal": "Novo subtotal",
       "taxes_and_shipping_policy_at_checkout_html": "",
       "taxes_included_but_shipping_at_checkout": "",
       "taxes_included_and_shipping_policy_html": "",
