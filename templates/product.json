@@ -30,7 +30,11 @@
         },
         "tab": {
           "type": "tab",
-          "settings": {}
+          "settings": {
+            "title": "Descrição do produto",
+            "content": "<p>Demonstração da descrição</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -39,11 +43,16 @@
         "buy_buttons",
         "tab"
       ],
-      "settings": {}
+      "settings": {
+        "show_vendor": true
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "settings": {}
+      "settings": {
+        "heading": "You may also like",
+        "products_to_show": 5
+      }
     }
   },
   "order": [
